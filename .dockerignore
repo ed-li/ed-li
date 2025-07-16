@@ -4,3 +4,6 @@ LICENSES
 LICENSE
 temp
 README.md
+
+.dioxus
+node_modules
