@@ -261,13 +261,13 @@ pub fn Timeline() -> Element {
 #[component]
 pub fn Portfolio() -> Element {
     rsx! {
-        div { class: "flex flex-wrap mt-10",
+        div { class: "flex flex-wrap",
             id: "portfolio",
             div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
                     h2 { class: "card-title", "Logger" }
                     p {
-                        "General activity tracker with modular support for specialized activities, namely working out."
+                        "General activity tracker with modular support for specialized activities. Prototypical module is for recording and evaluating strength training exercise performance."
                     }
                     Link { class: "card-actions justify-end",
                         to: "https://logger-app.fly.dev/",
@@ -281,10 +281,24 @@ pub fn Portfolio() -> Element {
                 div { class: "card-body",
                     h2 { class: "card-title", "PDF Parser" }
                     p {
-                        "API for extracting fields from PDF files using an optimized, lightweight VLM in the backend."
+                        "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
                     }
                     Link { class: "card-actions justify-end",
                         to: "https://github.com/ed-li/pdf_parser",
+                        button { class: "btn btn-primary",
+                            "Go"
+                        }
+                    }
+                }
+            }
+            div { class: "card bg-base-100 w-96 shadow-sm",
+                div { class: "card-body",
+                    h2 { class: "card-title", "Idleverse" }
+                    p {
+                        "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
+                    }
+                    Link { class: "card-actions justify-end",
+                        to: "https://github.com/ed-li/idleverse",
                         button { class: "btn btn-primary",
                             "Go"
                         }
