@@ -261,9 +261,9 @@ pub fn Timeline() -> Element {
 #[component]
 pub fn Portfolio() -> Element {
     rsx! {
-        div {
-            id: "blog",
-            div { class: "card bg-base-400 w-96 shadow-sm",
+        div { class: "flex flex-wrap mt-10",
+            id: "portfolio",
+            div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
                     h2 { class: "card-title", "Logger" }
                     p {
@@ -277,7 +277,7 @@ pub fn Portfolio() -> Element {
                     }
                 }
             }
-            div { class: "card bg-base-400 w-96 shadow-sm",
+            div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
                     h2 { class: "card-title", "PDF Parser" }
                     p {
