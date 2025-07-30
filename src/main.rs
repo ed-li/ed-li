@@ -269,10 +269,30 @@ pub fn Portfolio() -> Element {
                     p {
                         "General activity tracker with modular support for specialized activities. Prototypical module is for recording and evaluating strength training exercise performance."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://logger-app.fly.dev/",
-                        button { class: "btn btn-primary",
-                            "Go"
+                    div { class: "card-actions justify-end",
+                        Link {
+                            to: "https://logger-app.fly.dev/",
+                            button { class: "btn btn-primary",
+                                "Desktop"
+                            }
+                        }
+                        Link {
+                            to: "",
+                            button { class: "btn btn-disabled",
+                                "iOS"
+                            }
+                        }
+                        Link {
+                            to: "https://logger-app.fly.dev/",
+                            button { class: "btn btn-primary",
+                                "Android"
+                            }
+                        }
+                        Link {
+                            to: "https://logger-app.fly.dev/",
+                            button { class: "btn btn-primary",
+                                "Web"
+                            }
                         }
                     }
                 }
@@ -283,10 +303,12 @@ pub fn Portfolio() -> Element {
                     p {
                         "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://github.com/ed-li/pdf_parser",
-                        button { class: "btn btn-primary",
-                            "Go"
+                    div { class: "card-actions justify-end",
+                        Link {
+                            to: "https://github.com/ed-li/pdf_parser",
+                            button { class: "btn btn-primary",
+                                "Code"
+                            }
                         }
                     }
                 }
@@ -297,10 +319,12 @@ pub fn Portfolio() -> Element {
                     p {
                         "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://github.com/ed-li/idleverse",
-                        button { class: "btn btn-primary",
-                            "Go"
+                    div { class: "card-actions justify-end",
+                        Link {
+                            to: "https://github.com/ed-li/idleverse",
+                            button { class: "btn btn-primary",
+                                "Web"
+                            }
                         }
                     }
                 }
