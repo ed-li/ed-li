@@ -4,7 +4,7 @@ use dioxus::prelude::*;
 #[component]
 pub fn Portfolio() -> Element {
     rsx! {
-        div { class: "flex flex-wrap justify-start content-start items-start",
+        div { class: "flex flex-wrap justify-start content-start items-start justify-self-center-safe",
             id: "portfolio",
             div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
