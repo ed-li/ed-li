@@ -8,7 +8,19 @@ pub fn Portfolio() -> Element {
             id: "portfolio",
             div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
-                    h2 { class: "card-title", "Logger" }
+                    div { class: "grid grid-cols-2",
+                        div {
+                            h2 { class: "card-title", "Logger" }
+                        }
+                        div { class: "card-actions justify-end",
+                            Link {
+                                to: "https://github.com/ed-li/logger",
+                                button { class: "btn btn-psquare btn-sm",
+                                    "Code"
+                                }
+                            }
+                        }
+                    }
                     p {
                         "General activity tracker with modular support for specialized activities. Prototypical module is for recording and evaluating strength training exercise performance."
                     }
@@ -42,7 +54,19 @@ pub fn Portfolio() -> Element {
             }
             div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
-                    h2 { class: "card-title", "PDF Parser" }
+                    div { class: "grid grid-cols-2",
+                        div {
+                            h2 { class: "card-title", "PDF Parser" }
+                        }
+                        div { class: "card-actions justify-end",
+                            Link {
+                                to: "https://github.com/ed-li/pdf_parser",
+                                button { class: "btn btn-psquare btn-sm",
+                                    "Code"
+                                }
+                            }
+                        }
+                    }
                     p {
                         "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
                     }
@@ -50,7 +74,7 @@ pub fn Portfolio() -> Element {
                         Link {
                             to: "https://github.com/ed-li/pdf_parser",
                             button { class: "btn btn-primary",
-                                "Code"
+                                "API"
                             }
                         }
                     }
@@ -58,7 +82,19 @@ pub fn Portfolio() -> Element {
             }
             div { class: "card bg-base-100 w-96 shadow-sm",
                 div { class: "card-body",
-                    h2 { class: "card-title", "Idleverse" }
+                    div { class: "grid grid-cols-2",
+                        div {
+                            h2 { class: "card-title", "Idleverse" }
+                        }
+                        div { class: "card-actions justify-end",
+                            Link {
+                                to: "https://github.com/ed-li/idleverse",
+                                button { class: "btn btn-psquare btn-sm",
+                                    "Code"
+                                }
+                            }
+                        }
+                    }
                     p {
                         "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
                     }
