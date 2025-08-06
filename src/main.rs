@@ -61,6 +61,7 @@ fn Navbar() -> Element {
 pub fn Hero() -> Element {
     rsx! {
         div { class: "hero bg-base-200 min-h-screen",
+            id: "hero",
             div { class: "hero-content text-center",
                 div { class: "max-w-md",
                     h1 { class: "text-5xl font-bold", "Edward Li" }
@@ -88,6 +89,7 @@ pub fn Hero() -> Element {
 pub fn Timeline() -> Element {
     rsx! {
         ul { class: "timeline timeline-snap-icon max-md:timeline-compact timeline-vertical",
+            id: "timeline",
             li {
                 div { class: "timeline-middle",
                     svg {
