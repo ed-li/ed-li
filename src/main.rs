@@ -102,7 +102,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-start mb-10 md:text-end",
+                div { class: "timeline-start mb-10 md:text-end max-w-lg",
                     time { class: "font-mono italic", "Dec 2021 to Present" }
                     div { class: "text-lg font-black", "Ed Li, LLC" }
                     div { class: "text-lg font-bold", "Software Engineer" }
@@ -131,7 +131,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-end md:mb-10",
+                div { class: "timeline-end mb-10 max-w-lg",
                     time { class: "font-mono italic", "Nov 2020 to Dec 2021" }
                     div { class: "text-lg font-black", "DIA Associates" }
                     div { class: "text-md font-bold", "Data Analyst" }
@@ -160,7 +160,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-start mb-10 md:text-end",
+                div { class: "timeline-start mb-10 md:text-end max-w-lg",
                     time { class: "font-mono italic", "May 2018 to Oct 2020" }
                     div { class: "text-lg font-black", "Delphi, LLC" }
                     div { class: "text-md font-bold", "Principal Consultant" }
@@ -186,7 +186,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-end md:mb-10",
+                div { class: "timeline-end mb-10 max-w-lg",
                     time { class: "font-mono italic", "Nov 2017 to May 2018" }
                     div { class: "text-lg font-black", "Atana" }
                     div { class: "text-md font-bold", "Vice President of Product" }
@@ -213,7 +213,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-start mb-10 md:text-end",
+                div { class: "timeline-start mb-10 md:text-end max-w-lg",
                     time { class: "font-mono italic", "Jun 2017 to Aug 2017" }
                     div { class: "text-lg font-black", "J.P. Morgan" }
                     div { class: "text-md font-bold", "Investment Banking Credit Risk Summer Analyst" }
@@ -239,7 +239,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "timeline-end mb-10",
+                div { class: "timeline-end mb-10 max-w-lg",
                     time { class: "font-mono italic", "May 2015 to May 2020" }
                     div { class: "text-lg font-black", "Johns Hopkins Institute for Applied Economics" }
                     div { class: "text-md font-bold", "Chief Research Assistant for Prof. Steve H. Hanke" }
