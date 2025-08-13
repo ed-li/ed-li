@@ -13,7 +13,7 @@ RUN cargo chef cook --release --recipe-path recipe.json
 COPY . .
 
 # Install `dx`
-RUN cargo binstall dioxus-cli@0.7.0-alpha.2 --root /.cargo -y --force
+RUN cargo binstall dioxus-cli@0.7.0-alpha.3 --root /.cargo -y --force
 ENV PATH="/.cargo/bin:$PATH"
 
 # Create the final bundle folder. Bundle always executes in release mode with optimizations enabled
