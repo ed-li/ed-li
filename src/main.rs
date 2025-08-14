@@ -267,13 +267,13 @@ pub fn Portfolio() -> Element {
                         h2 { class: "card-title", "Logger" }
                         Link { class: "card-actions justify-end",
                             to: "https://github.com/ed-li/logger",
-                            button { class: "btn btn-outline btn-primary",
+                            button { class: "btn btn-outline btn-sm btn-primary",
                                 "Code"
                             }
                         }
                     }
                     p {
-                        "General activity tracker with modular support for specialized activities, namely working out."
+                        "General activity tracker with modular support for specialized activities. Prototypical module is for recording and evaluating strength training exercise performance."
                     }
                     Link { class: "card-actions justify-end",
                         to: "https://logger-app.fly.dev/",
@@ -289,13 +289,35 @@ pub fn Portfolio() -> Element {
                         h2 { class: "card-title", "PDF Parser" }
                         Link { class: "card-actions justify-end",
                             to: "https://github.com/ed-li/pdf_parser",
-                            button { class: "btn btn-outline btn-primary",
+                            button { class: "btn btn-outline btn-sm btn-primary",
                                 "Code"
                             }
                         }
                     }
                     p {
-                        "API for extracting fields from PDF files using an optimized, lightweight VLM in the backend."
+                        "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
+                    }
+                    Link { class: "card-actions justify-end",
+                        to: "https://github.com/ed-li/pdf_parser",
+                        button { class: "btn btn-primary",
+                            "Go"
+                        }
+                    }
+                }
+            }
+            div { class: "card bg-base-200 w-96 shadow-sm",
+                div { class: "card-body",
+                    div { class: "grid grid-cols-2",
+                        h2 { class: "card-title", "Idleverse" }
+                        Link { class: "card-actions justify-end",
+                            to: "https://github.com/ed-li/idleverse",
+                            button { class: "btn btn-outline btn-sm btn-primary",
+                                "Code"
+                            }
+                        }
+                    }
+                    p {
+                        "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
                     }
                     Link { class: "card-actions justify-end",
                         to: "https://github.com/ed-li/pdf_parser",
