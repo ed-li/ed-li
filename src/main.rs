@@ -259,7 +259,7 @@ pub fn Timeline() -> Element {
 #[component]
 pub fn Portfolio() -> Element {
     rsx! {
-        div { class: "flex flex-row p-4 gap-4",
+        div { class: "flex flex-row flex-wrap p-4 gap-4",
             id: "portfolio",
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
