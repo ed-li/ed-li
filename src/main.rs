@@ -87,6 +87,7 @@ pub fn Timeline() -> Element {
     rsx! {
         ul { class: "timeline timeline-snap-icon max-md:timeline-compact timeline-vertical",
             li {
+                hr {}
                 div { class: "timeline-middle",
                     svg {
                         class: "h-5 w-5",
@@ -100,7 +101,7 @@ pub fn Timeline() -> Element {
                         }
                     }
                 }
-                div { class: "list timeline-start mb-10 md:text-end max-w-xl",
+                div { class: "timeline-start mb-10 md:text-end max-w-xl",
                     time { class: "font-mono italic", "Dec 2021 to Present" }
                     div { class: "text-lg font-black", "Ed Li, LLC" }
                     div { class: "text-lg font-bold", "Software Engineer" }
