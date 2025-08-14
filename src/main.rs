@@ -71,9 +71,9 @@ pub fn Hero() -> Element {
                         br {}
                         "Blockchain Consultant"
                     }
-                    Link {
+                    Link { class: "btn btn-primary",
                         to: "{RESUME}",
-                        button { class: "btn btn-primary", "Resume" }
+                        "Resume"
                     }
                 }
             }
@@ -265,9 +265,9 @@ pub fn Portfolio() -> Element {
                 div { class: "card-body",
                     div { class: "grid grid-cols-2",
                         h2 { class: "card-title", "Logger" }
-                        Link { class: "card-actions justify-end",
-                            to: "https://github.com/ed-li/logger",
-                            button { class: "btn btn-outline btn-sm btn-primary",
+                        div { class: "card-actions justify-end",
+                            Link { class: "btn btn-outline btn-sm btn-primary",
+                                to: "https://github.com/ed-li/logger",
                                 "Code"
                             }
                         }
@@ -275,9 +275,9 @@ pub fn Portfolio() -> Element {
                     p {
                         "General activity tracker with modular support for specialized activities. Prototypical module is for recording and evaluating strength training exercise performance."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://logger-app.fly.dev/",
-                        button { class: "btn btn-primary",
+                    div { class: "card-actions justify-end",
+                        Link { class: "btn btn-primary",
+                            to: "https://logger-app.fly.dev/",
                             "Go"
                         }
                     }
@@ -287,9 +287,9 @@ pub fn Portfolio() -> Element {
                 div { class: "card-body",
                     div { class: "grid grid-cols-2",
                         h2 { class: "card-title", "PDF Parser" }
-                        Link { class: "card-actions justify-end",
-                            to: "https://github.com/ed-li/pdf_parser",
-                            button { class: "btn btn-outline btn-sm btn-primary",
+                        div { class: "card-actions justify-end",
+                            Link { class: "btn btn-outline btn-sm btn-primary",
+                                to: "https://github.com/ed-li/pdf_parser",
                                 "Code"
                             }
                         }
@@ -297,9 +297,9 @@ pub fn Portfolio() -> Element {
                     p {
                         "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://github.com/ed-li/pdf_parser",
-                        button { class: "btn btn-primary",
+                    div { class: "card-actions justify-end",
+                        Link { class: "btn btn-primary",
+                            to: "https://github.com/ed-li/pdf_parser",
                             "Go"
                         }
                     }
@@ -309,9 +309,9 @@ pub fn Portfolio() -> Element {
                 div { class: "card-body",
                     div { class: "grid grid-cols-2",
                         h2 { class: "card-title", "Idleverse" }
-                        Link { class: "card-actions justify-end",
-                            to: "https://github.com/ed-li/idleverse",
-                            button { class: "btn btn-outline btn-sm btn-primary",
+                        div { class: "card-actions justify-end",
+                            Link { class: "btn btn-outline btn-sm btn-primary",
+                                to: "https://github.com/ed-li/idleverse",
                                 "Code"
                             }
                         }
@@ -319,9 +319,9 @@ pub fn Portfolio() -> Element {
                     p {
                         "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
                     }
-                    Link { class: "card-actions justify-end",
-                        to: "https://github.com/ed-li/pdf_parser",
-                        button { class: "btn btn-primary",
+                    div { class: "card-actions justify-end",
+                        Link { class: "btn btn-primary",
+                            to: "https://github.com/ed-li/pdf_parser",
                             "Go"
                         }
                     }
