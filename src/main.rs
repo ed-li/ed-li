@@ -12,6 +12,7 @@ enum Route {
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
+const RESUME: Asset = asset!("/assets/resume.pdf");
 
 fn main() {
     dioxus::launch(App);
@@ -70,7 +71,10 @@ pub fn Hero() -> Element {
                         br {}
                         "Blockchain Consultant"
                     }
-                    button { class: "btn btn-primary", "Resume" }
+                    Link {
+                        to: "{RESUME}",
+                        button { class: "btn btn-primary", "Resume" }
+                    }
                 }
             }
         }
