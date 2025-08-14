@@ -263,7 +263,7 @@ pub fn Portfolio() -> Element {
             id: "portfolio",
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
-                    div { class: "grid grid-cols-2",
+                    div { class: "grid grid-cols-2 pb-2 items-end",
                         h2 { class: "card-title", "Logger" }
                         div { class: "card-actions justify-end",
                             Link { class: "btn btn-outline btn-sm btn-primary",
@@ -297,7 +297,7 @@ pub fn Portfolio() -> Element {
             }
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
-                    div { class: "grid grid-cols-2",
+                    div { class: "grid grid-cols-2 pb-2 items-end",
                         h2 { class: "card-title", "PDF Parser" }
                         div { class: "card-actions justify-end",
                             Link { class: "btn btn-outline btn-sm btn-primary",
@@ -319,7 +319,7 @@ pub fn Portfolio() -> Element {
             }
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
-                    div { class: "grid grid-cols-2",
+                    div { class: "grid grid-cols-2 pb-2 items-end",
                         h2 { class: "card-title", "Idleverse" }
                         div { class: "card-actions justify-end",
                             Link { class: "btn btn-outline btn-sm btn-primary btn-disabled",
