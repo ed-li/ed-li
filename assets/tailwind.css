@@ -542,6 +542,9 @@
       height: calc(0.25rem * 8);
     }
   }
+  .fixed {
+    position: fixed;
+  }
   .hero-content {
     isolation: isolate;
     display: flex;
@@ -550,6 +553,9 @@
     justify-content: center;
     gap: calc(0.25rem * 4);
     padding: calc(0.25rem * 4);
+  }
+  .z-50 {
+    z-index: 50;
   }
   .timeline-end {
     grid-column-start: 1;
@@ -706,12 +712,6 @@
   }
   .grid {
     display: grid;
-  }
-  .btn-circle {
-    border-radius: calc(infinity * 1px);
-    padding-inline: calc(0.25rem * 0);
-    width: var(--size);
-    height: var(--size);
   }
   .h-5 {
     height: calc(var(--spacing) * 5);

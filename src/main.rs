@@ -40,7 +40,7 @@ fn Home() -> Element {
 #[component]
 fn Navbar() -> Element {
     rsx! {
-        nav { class: "navbar bg-base-200 shadow-sm",
+        nav { class: "navbar bg-base-200 shadow-sm fixed z-50",
             id: "navbar",
             Link { class: "btn btn-ghost text-xl",
                 to: Route::Home {},
