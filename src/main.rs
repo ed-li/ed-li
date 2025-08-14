@@ -263,7 +263,15 @@ pub fn Portfolio() -> Element {
             id: "portfolio",
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
-                    h2 { class: "card-title", "Logger" }
+                    div { class: "grid grid-cols-2",
+                        h2 { class: "card-title", "Logger" }
+                        Link { class: "card-actions justify-end",
+                            to: "https://github.com/ed-li/logger",
+                            button { class: "btn btn-outline btn-primary",
+                                "Code"
+                            }
+                        }
+                    }
                     p {
                         "General activity tracker with modular support for specialized activities, namely working out."
                     }
@@ -277,7 +285,15 @@ pub fn Portfolio() -> Element {
             }
             div { class: "card bg-base-200 w-96 shadow-sm",
                 div { class: "card-body",
-                    h2 { class: "card-title", "PDF Parser" }
+                    div { class: "grid grid-cols-2",
+                        h2 { class: "card-title", "PDF Parser" }
+                        Link { class: "card-actions justify-end",
+                            to: "https://github.com/ed-li/pdf_parser",
+                            button { class: "btn btn-outline btn-primary",
+                                "Code"
+                            }
+                        }
+                    }
                     p {
                         "API for extracting fields from PDF files using an optimized, lightweight VLM in the backend."
                     }
