@@ -278,7 +278,19 @@ pub fn Portfolio() -> Element {
                     div { class: "card-actions justify-end",
                         Link { class: "btn btn-primary",
                             to: "https://logger-app.fly.dev/",
-                            "Go"
+                            "Windows"
+                        }
+                        Link { class: "btn btn-primary btn-disabled",
+                            to: "#",
+                            "Android"
+                        }
+                        Link { class: "btn btn-primary btn-disabled",
+                            to: "#",
+                            "iOS"
+                        }
+                        Link { class: "btn btn-primary",
+                            to: "https://logger-app.fly.dev/",
+                            "Web"
                         }
                     }
                 }
@@ -298,9 +310,9 @@ pub fn Portfolio() -> Element {
                         "API for extracting fields from PDF files. Using an optimized, lightweight VLM in the backend."
                     }
                     div { class: "card-actions justify-end",
-                        Link { class: "btn btn-primary",
-                            to: "https://github.com/ed-li/pdf_parser",
-                            "Go"
+                        Link { class: "btn btn-primary btn-disabled",
+                            to: "#",
+                            "API"
                         }
                     }
                 }
@@ -310,7 +322,7 @@ pub fn Portfolio() -> Element {
                     div { class: "grid grid-cols-2",
                         h2 { class: "card-title", "Idleverse" }
                         div { class: "card-actions justify-end",
-                            Link { class: "btn btn-outline btn-sm btn-primary",
+                            Link { class: "btn btn-outline btn-sm btn-primary btn-disabled",
                                 to: "https://github.com/ed-li/idleverse",
                                 "Code"
                             }
@@ -320,9 +332,9 @@ pub fn Portfolio() -> Element {
                         "Incremental simulation game in an infinite multi-dimensional universe with discrete space. Made using the open-source Bevy engine."
                     }
                     div { class: "card-actions justify-end",
-                        Link { class: "btn btn-primary",
-                            to: "https://github.com/ed-li/pdf_parser",
-                            "Go"
+                        Link { class: "btn btn-primary btn-disabled",
+                            to: "https://github.com/ed-li/idleverse",
+                            "itch.io"
                         }
                     }
                 }
