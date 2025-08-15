@@ -10,7 +10,7 @@ enum Route {
     Portfolio {},
 }
 
-const FAVICON: Asset = asset!("/assets/favicon.ico");
+const FAVICON: Asset = asset!("/assets/favicon.png");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
 const RESUME: Asset = asset!("/assets/resume.pdf");
 

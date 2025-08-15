@@ -3,7 +3,7 @@
 [web.app]
 
 # HTML title tag content
-title = "ed-li"
+title = "Edward Li - Software Engineer"
 
 # include `assets` in web platform
 [web.resource]
